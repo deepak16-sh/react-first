@@ -1,0 +1,33 @@
+.notfound{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.error{
+    padding-top: 5vh;
+    width: 60vw;
+    text-align: center;
+}
+.error404 h1{
+    font-size: 20rem;
+    color: gray;
+    opacity: .5;
+
+}
+.pagenotfound h1{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.pagenotfound a{
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.pagenotfound{
+    position: relative;
+    top: -150px;
+}

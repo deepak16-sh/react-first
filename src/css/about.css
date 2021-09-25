@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+.Aboutus{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.about_cont{
+    margin-top: 5rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_comp:nth-child(odd) .about_data{
+    flex-direction: row-reverse;
+}
+.about_data{
+    margin-top: 2rem;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+.about_comp{
+    display: flex;
+    flex-direction: column;
+}
+.about_img{
+    text-align: end;
+    width: 20vw;
+}
+.about_img img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.about_list{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about_list h1{
+    font-size: 2.5rem;
+}
+
+.about_info{
+    display: flex;
+}
+.our_about_no{
+    width: 5rem;
+    height: 4rem;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    font-size: 3rem;
+    text-align: center;
+}
+.our_about_data{
+    margin-left: 1rem;
+}
+.our_about_data p{
+    font-size: 1.5rem;
+}
+.about_btn{
+    border-radius: 20px;
+    width:10rem;
+    padding: 5px;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    background:transparent;
+    color:blueviolet;
+    border: 1px solid blueviolet;
+}
+
+@media (max-width:900px){
+    html{
+        font-size: 50%;
+    }
+    .our_about_no{
+        width: 8rem;
+    }
+    .about_data{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_comp:nth-child(odd) .about_data{
+        flex-direction: column;
+    }
+    .about_img{
+        width: 44vw;
+        text-align: start;
+    }
+    .about_img img{
+        width: 80%;
+    }
+    .about_info{
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width:700px){
+    html{
+        font-size: 40%;
+    }
+    .about_data{
+        width: 100vw;
+    }
+    .about_img{
+        width: 35vw;
+    }
+    .about_list{
+        width: 60vw;
+    }
+    .Aboutus{
+        width: vw;
+    }
+    .about_cont{
+        width: 100vw;
+    }
+}
+@media (max-width:500px){
+    .about_img{
+         width: 44vw;
+    }
+    .about_list{
+        width: 78vw;
+    }
+}

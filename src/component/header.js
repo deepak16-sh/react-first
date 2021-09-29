@@ -18,7 +18,7 @@ export const Header = () => {
                     </div>
                 </section>
                 <section className="container_img">
-                    <img src="./images/office3.jpg" alt="" className="img_child1" />
+                    <img src="../../public/images/office3.jpg" alt="" className="img_child1" />
                     <img src="./images/office2.jpg" alt="" className="img_child2" />
                 </section>
             </header>
